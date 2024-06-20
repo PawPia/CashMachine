@@ -4,11 +4,10 @@
 class machine {
 private:
     double balance;
+
 public:
     machine();
-
-    void checkBalance() const;
-    void deposit() const;
-    void withdraw() const;
-
+    void checkBalance();
+    void deposit(double cash);
+    void withdraw(double cash);
 };
