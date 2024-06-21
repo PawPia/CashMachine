@@ -23,15 +23,15 @@ int main() {
 
         switch (option) {
             case 1:
-                machine.checkBalance();
+                machine.checkBalance();//Sprawdzanie stanu konta
                 break;
             case 2:
-                cout << "Enter amount to deposit :\n" << endl;
+                cout << "Enter amount to deposit :\n" << endl;//Określanie kwoty do oddania do bankomatu
                 cin >> cash;
                 machine.deposit(cash);
                 break;
             case 3:
-                cout << "Enter amount to withdraw :\n" << endl;
+                cout << "Enter amount to withdraw :\n" << endl;//Określanie kwoty do wyciągnięcia z bankomatu
                 cin >> cash;
                 machine.withdraw(cash);
                 break;
