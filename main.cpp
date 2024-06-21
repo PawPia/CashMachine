@@ -2,7 +2,7 @@
 #include "Cash_Machine.h"
 using namespace std;
 
-void menu(void) {
+void menu() {
     cout<<"Select an option\n"<<endl;
     cout<<"1. Check your balance"<<endl;
     cout<<"2. Payout cash"<<endl;
