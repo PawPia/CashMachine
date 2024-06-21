@@ -5,8 +5,8 @@ using namespace std;
 void menu() {
     cout<<"Select an option\n"<<endl;
     cout<<"1. Check your balance"<<endl;
-    cout<<"2. Payout cash"<<endl;
-    cout<<"3. Deposit cash"<<endl;
+    cout<<"2. Deposit cash"<<endl;
+    cout<<"3. Payout cash"<<endl;
     cout<<"0. Sign out\n"<<endl;
     cout<<"Select an option:\n"<<endl;
 }
